@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+.App h3{
+  color: #efefef;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: #3b3e46;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.img{
+max-width: 100%;
+height: auto;
+display: block;
+}
+.App_1{
+    display: flex;
+    justify-content: space-around;
+      width: 80%;
+      margin: auto;
+      background: #09d3ac;
+      align-items: center
+}
+.App_1 h2{
+    font-weight: 100;
+}
+.App_1 button{
+    padding: .5rem 1rem;
+    border: none;
+    background: rgb(224, 92, 92);
+    outline: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
